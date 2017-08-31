@@ -21,9 +21,9 @@
     ///////////////////////////
     // Put your code here!
     ///////////////////////////
-    function LivingThing (name, health) {
-      var name = name
-      var health = health
+    function LivingThing (mName, mHealth) {
+      var name = mName
+      var health = mHealth
 
       this.isAlive = function(){
         return health > 0;

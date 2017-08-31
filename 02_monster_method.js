@@ -24,7 +24,7 @@
         return this.health > 0;
         }
       }
-        
+
       let rat = new LivingThing("Rat", 5);
       let goblin = new LivingThing("Goblin", 30);
       let ogre = new LivingThing("Ogre", 80);
